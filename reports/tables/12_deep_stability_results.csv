@@ -1,0 +1,7 @@
+algorithm,k_or_config,stability_score,stability_method
+K-Means,K=4,0.896396194941679,"Bootstrap resampling, 6 replicates, ARI"
+K-Means,K=9,0.9562102189288972,"Bootstrap resampling, 6 replicates, ARI"
+Ward,K=4,0.7614661301992309,"5 independent samples, 1 - CV of cluster proportions"
+Ward,K=9,0.7614661301992309,Assumed similar to K=4 (not separately tested)
+DBSCAN,"eps=1.15, min_samples=20",0.991075455401177,"3 subsamples (90%), 1 - mean CV of cluster count and noise %"
+HDBSCAN,min_cluster_size=1500,0.9357441721458458,1 subsample (90%) only - low confidence estimate

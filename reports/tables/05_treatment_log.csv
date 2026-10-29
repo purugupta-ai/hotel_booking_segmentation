@@ -1,0 +1,3 @@
+feature,action,rows_affected,reason
+adults,Removed rows with more than 6 adults,13,Double-digit adult counts on a single booking record are implausible; treated as data entry errors.
+adr,"Capped (winsorized) values above EUR 1,000 down to EUR 1,000",1,"A single EUR 5,400 value is >10x the next-highest booking with no plausible business explanation; capped rather than removed to preserve the rest of the booking's valid information."

@@ -1,0 +1,14 @@
+feature,standard_scaler_max_abs,robust_scaler_max_abs
+babies,87.85119000936362,10.0
+previous_cancellations,70.22513159535211,26.0
+required_car_parking_spaces,28.07248042931377,8.0
+booking_changes,24.962865534325747,18.0
+stays_in_week_nights,23.21262457518833,16.0
+children,22.08744761903411,10.0
+stays_in_weekend_nights,17.511030417024166,9.0
+adr,17.190253570806554,14.578011317704124
+adults,8.295378063735985,4.0
+lead_time,7.64563619860145,6.035087719298246
+total_of_special_requests,5.172145831529883,5.0
+is_repeated_guest,4.98764088227027,1.0
+room_type_mismatch,2.3904572186687876,1.0

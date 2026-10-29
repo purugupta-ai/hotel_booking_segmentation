@@ -1,0 +1,13 @@
+feature,outlier_count,outlier_pct,business_interpretation,treatment
+lead_time,2394,2.74,"Long lead times plausibly reflect early planners and group/event bookings, not errors.",Retain (no rows removed); candidate for a scaling/transform adjustment in Notebook 07.
+stays_in_weekend_nights,213,0.24,"Longer weekend stays are a legitimate, if less common, stay pattern.",Retain.
+stays_in_week_nights,1514,1.74,Longer week-night stays plausibly reflect extended-stay or business travel.,Retain.
+adults,22733,26.06,IQR breaks down here (IQR = 0); most flagged rows are normal 1/3/4-adult bookings. A small number of double-digit values (10-55 adults on one record) are implausible.,Retain values up to 6 adults; remove the 13 rows with more than 6 adults as data entry errors.
+children,8364,9.59,IQR breaks down (zero-inflated). Nonzero values represent real family bookings.,Retain all values.
+babies,914,1.05,IQR breaks down (zero-inflated). Rare but plausible family bookings.,Retain all values.
+booking_changes,15804,18.12,IQR breaks down (zero-inflated). Represents a legitimate engagement/amendment signal.,Retain all values; consider a business-reasoned cap only for scaling purposes in Notebook 07.
+adr,2508,2.88,"General tail up to ~EUR 510 reflects legitimate premium/varied-rate bookings (investigated in Notebooks 02 and 04). One isolated value (EUR 5,400, >10x the next-highest booking) has no plausible business explanation.","Retain the general tail; cap (winsorize) the single EUR 5,400 value to EUR 1,000."
+required_car_parking_spaces,7306,8.38,IQR breaks down (zero-inflated). Legitimate minority behavior (guests who drive).,Retain all values.
+total_of_special_requests,2670,3.06,A bounded field (observed max of 5); high-end values reflect genuinely more service-engaged guests.,Retain all values.
+previous_cancellations,1681,1.93,IQR breaks down (zero-inflated). Represents the exact 'frequent canceler' signal this project wants to detect.,Retain all values.
+previous_bookings_not_canceled,3537,4.05,IQR breaks down (zero-inflated). Represents the exact 'loyal repeat guest' signal this project wants to detect.,Retain all values.

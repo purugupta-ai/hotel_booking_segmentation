@@ -1,0 +1,5 @@
+Segment,Size (bookings),% of Bookings,Avg ADR,Avg Stay (nights),Repeat Guest %,Observed Cancellation %
+High-Value Family & Group Travelers,11379,13.08,198.16,4.11,1.17,34.96
+"Early-Planning, Long-Stay Bookers",14959,17.19,86.32,6.77,0.9,32.31
+"Loyal, Low-Risk Repeat Guests",24604,28.28,73.51,2.3,11.21,14.45
+Mainstream Online City-Hotel Guests,36055,41.44,108.58,3.08,0.93,32.03

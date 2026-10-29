@@ -1,0 +1,17 @@
+{
+  "algorithm": "KMeans",
+  "parameters": {
+    "n_clusters": 4,
+    "init": "k-means++",
+    "n_init": 10,
+    "max_iter": 300,
+    "random_state": 42
+  },
+  "decision_weighted_score": 0.7630156657240184,
+  "runner_up": {
+    "algorithm": "K-Means",
+    "parameters": "K=9, init=k-means++, n_init=10",
+    "weighted_score": 0.728037744904474
+  },
+  "decision_rationale": "Selected via the weighted multi-criteria framework in Notebook 12. K=4 was not the top scorer on any single statistical metric, but achieved the best combination of stability, full data coverage (0% noise), balanced cluster sizes, and business interpretability."
+}

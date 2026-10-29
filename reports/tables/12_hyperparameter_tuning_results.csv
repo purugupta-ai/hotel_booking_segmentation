@@ -1,0 +1,11 @@
+min_samples,eps,n_clusters,noise_count,noise_pct,largest_cluster_size,largest_cluster_pct,fit_time_seconds,search_round
+10,0.75,516,26043.0,29.94,4759.0,5.47,43.8,Notebook 10 (coarse)
+10,1.03,98,14372.0,16.52,21190.0,24.36,63.4,Notebook 10 (coarse)
+10,1.43,15,3979.0,4.57,82726.0,95.09,474.0,Notebook 10 (coarse)
+20,1.15,65,11989.0,13.78,21569.0,24.79,48.5,Notebook 10 (coarse)
+30,1.23,58,11265.0,12.95,21681.0,24.92,49.4,Notebook 10 (coarse)
+15,0.95,399,,28.8,,5.48,37.7,Notebook 12 (fine)
+15,1.05,75,,18.14,,24.28,36.3,Notebook 12 (fine)
+20,1.0,129,,29.17,,21.92,36.2,Notebook 12 (fine)
+20,1.05,61,,20.23,,24.12,37.6,Notebook 12 (fine)
+20,1.25,69,,10.53,,25.06,66.9,Notebook 12 (fine)

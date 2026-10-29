@@ -1,0 +1,33 @@
+# Hotel Booking Behavior Segmentation - pinned, tested dependency set
+#
+# PYTHON VERSION: use Python 3.10, 3.11 or 3.12.
+# scipy==1.13.1 publishes prebuilt wheels only up to Python 3.12. On Python 3.13+
+# pip cannot find a wheel and tries to compile scipy from source, which fails on
+# most machines. If you must use Python 3.13+, change the scipy line to
+# scipy==1.15.3 (has 3.13 wheels) and re-run the notebooks.
+#
+# Verified: all 16 notebooks execute with zero errors and the Streamlit app runs
+# on exactly these versions (Python 3.12).
+
+# Core Data Science
+numpy>=2.3.2
+pandas>=2.4.0
+scipy>=1.14.0
+
+# Machine Learning
+scikit-learn>=1.5.0
+joblib>=1.4.0
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# Jupyter
+jupyter>=1.1.0
+ipykernel>=6.29.0
+
+# Excel Support
+openpyxl>=3.1.0
+
+# Web Application
+streamlit>=1.40.0

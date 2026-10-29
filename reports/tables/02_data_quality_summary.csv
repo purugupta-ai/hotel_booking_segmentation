@@ -1,0 +1,33 @@
+column,dtype,missing_count,missing_pct,unique_values,problem_flag
+hotel,str,0,0.0,2,none detected
+is_canceled,int64,0,0.0,2,none detected
+lead_time,int64,0,0.0,479,none detected
+arrival_date_year,int64,0,0.0,3,none detected
+arrival_date_month,str,0,0.0,12,none detected
+arrival_date_week_number,int64,0,0.0,53,none detected
+arrival_date_day_of_month,int64,0,0.0,31,none detected
+stays_in_weekend_nights,int64,0,0.0,17,none detected
+stays_in_week_nights,int64,0,0.0,35,none detected
+adults,int64,0,0.0,14,none detected
+children,float64,4,0.0,5,none detected
+babies,int64,0,0.0,5,none detected
+meal,str,0,0.0,5,none detected
+country,str,488,0.41,177,some missingness
+market_segment,str,0,0.0,8,none detected
+distribution_channel,str,0,0.0,5,none detected
+is_repeated_guest,int64,0,0.0,2,none detected
+previous_cancellations,int64,0,0.0,15,none detected
+previous_bookings_not_canceled,int64,0,0.0,73,none detected
+reserved_room_type,str,0,0.0,10,none detected
+assigned_room_type,str,0,0.0,12,none detected
+booking_changes,int64,0,0.0,21,none detected
+deposit_type,str,0,0.0,3,none detected
+agent,float64,16340,13.69,333,some missingness
+company,float64,112593,94.31,352,very high missingness
+days_in_waiting_list,int64,0,0.0,128,none detected
+customer_type,str,0,0.0,4,none detected
+adr,float64,0,0.0,8879,none detected
+required_car_parking_spaces,int64,0,0.0,5,none detected
+total_of_special_requests,int64,0,0.0,6,none detected
+reservation_status,str,0,0.0,3,none detected
+reservation_status_date,str,0,0.0,926,none detected

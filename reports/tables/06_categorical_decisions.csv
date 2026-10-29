@@ -1,0 +1,12 @@
+column,cardinality,decision
+hotel,2,Include (one-hot)
+meal,5,Include (one-hot)
+market_segment,8,Include (one-hot)
+distribution_channel,5,Include (one-hot)
+deposit_type,3,Include (one-hot)
+customer_type,4,Include (one-hot)
+reserved_room_type,10,Exclude from clustering input; profiling only
+assigned_room_type,12,Exclude from clustering input; profiling only
+country,177,"Exclude entirely from core scope (demographic, not behavioral)"
+agent,333,Exclude from clustering input
+company,352,Exclude from clustering input

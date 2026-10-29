@@ -1,0 +1,5 @@
+action,rows_affected,reason
+Removed exact full-row duplicates (kept first occurrence),31994,"32-column exact matches, including price-to-the-cent and exact status date, are implausible as independent bookings; treated as a data export artifact."
+Imputed missing 'children' values with 0 and cast column to integer,4,Negligible missing rate; 0 is both the mode and the business-plausible default for an unrecorded child count.
+Removed rows with negative adr,1,"A negative room rate is not a logically valid business value, unlike adr == 0 which can represent legitimate complimentary/negotiated-zero-rate bookings."
+Removed rows with zero total guests (adults + children + babies == 0),166,A hotel booking with zero occupants is not logically possible; treated as a data entry error rather than a legitimate rare booking type.
