@@ -74,6 +74,11 @@ Streamlit app development with automated testing, and clear business communicati
 
 ## Quick Start: Try the App in 2 Minutes
 
+![Predict a Booking tab](reports/figures/app_predict_tab_0.png)
+![Predict a Booking tab](reports/figures/app_predict_tab_1.png)
+![Segment Dashboard tab](reports/figures/app_dashboard_tab_0.png)
+![Segment Dashboard tab](reports/figures/app_dashboard_tab_1.png)
+
 You do **not** need to run any notebook to use the app. Everything it needs (the trained
 model, the preprocessing pipeline, the config files and the small summary tables) is
 already in the repository.
@@ -616,8 +621,15 @@ so back up the repository folder first.
 - **🔮 Predict a Booking** — a form covering every core feature; on submit, shows the
   predicted segment, distance-to-centroid, a plain-language "why this segment"
   explanation, and a comparison chart against that segment's average profile.
+
+![Predict a Booking tab](reports/figures/app_predict_tab_0.png)
+![Predict a Booking tab](reports/figures/app_predict_tab_1.png)
+
 - **📊 Segment Dashboard** — the full segment summary table, KPI comparison charts, a
   share-of-bookings pie chart, and expandable characteristics for all 4 segments.
+
+![Segment Dashboard tab](reports/figures/app_dashboard_tab_0.png)
+![Segment Dashboard tab](reports/figures/app_dashboard_tab_1.png)
 
 Tested with Streamlit's `AppTest` framework (form fill → submit → verify predicted
 segment) under the pinned `streamlit==1.50.0`.
